@@ -6,7 +6,8 @@ Welcome! This project is a simple yet powerful attempt to solve a very real prob
 
 ## 📁 Dataset Overview
 
-We use two publicly available datasets:
+⚠️ Note: Dataset is not included due to size. 
+Please upload True.csv and Fake.csv manually or modify the code to load from your local/Google Drive.
 
 - `True.csv`: [Dataset link of **True.csv**](https://docs.google.com/spreadsheets/d/1oaCanPcX9ZIHmiOZonWmCORqbwR3RKC5goa8BRjMGak/edit?usp=drive_link)
 - `Fake.csv`: [Dataset link of **fake.csv**](https://docs.google.com/spreadsheets/d/19zkYZaciqHrabm_vTj9hGfUjlFwIvlJC8XXF5qga7cE/edit?usp=drive_link)
