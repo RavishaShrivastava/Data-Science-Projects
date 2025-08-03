@@ -14,7 +14,7 @@ Columns:
     -Temperature
     -Yield (Q/acre) (target)
 
-# 🧠 Machine Learning Approach:
+#  Machine Learning Approach:
 Algorithm: Polynomial Regression (degree = 2)
 
 # Libraries Used:
@@ -30,7 +30,7 @@ Algorithm: Polynomial Regression (degree = 2)
     Visualize actual vs predicted yields
 
 
-# 📦 Requirements:
+#  Requirements:
 Install dependencies using pip:
     pip install pandas numpy scikit-learn matplotlib openpyxl
 
@@ -45,7 +45,7 @@ You can improve it by:
 
 **Model:** Polynomial Regression (degree = 2)
 
-## ✅ Performance Metrics
+##  Performance Metrics
 - **Mean Squared Error (MSE):** 0.446  
 - **R² Score (Coefficient of Determination):** 0.899
 
@@ -56,15 +56,15 @@ These results suggest that the model fits the data well. An R² score of 0.899 i
 - Most data points lie close to the 45-degree reference line, suggesting strong predictive accuracy.
 - No major outliers are observed, indicating the model generalizes well on test data.
 
-## 📌 Interpretation
+##  Interpretation
 - The model captures the nonlinear relationship between features (like fertilizer usage, nutrient levels, rainfall, and temperature) and crop yield.
 - Polynomial terms helped improve accuracy compared to a simple linear regression.
 
-## 🔎 Suggestions for Improvement
+##  Suggestions for Improvement
 - Perform k-fold cross-validation to ensure the model is not overfitting.
 - Experiment with higher-degree polynomials (3 or 4), but monitor for overfitting.
 - Include additional variables like soil pH, crop variety, sowing method, etc., for better generalization.
 - Apply regularization (Ridge/Lasso) to handle any multicollinearity.
 
-## 📌 Final Note
+##  Final Note
 This polynomial regression model provides a solid base for yield prediction, especially for small to mid-sized datasets with nonlinear interactions. It can be scaled or refined further based on domain knowledge and data availability.
