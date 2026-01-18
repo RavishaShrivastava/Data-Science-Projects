@@ -1,6 +1,6 @@
 # Ancient Language Detection using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on **automatic detection of ancient languages** from text data using Machine Learning techniques.
 The model is trained to classify text into one of several ancient languages based on learned linguistic patterns.
@@ -9,7 +9,7 @@ The goal of this project is to explore **text classification**, **language ident
 
 ---
 
-## 🏛️ Languages Covered
+## Languages Covered
 
 The model currently supports the following ancient languages:
 
@@ -20,7 +20,7 @@ The model currently supports the following ancient languages:
 
 ---
 
-## 📂 Dataset Structure
+## Dataset Structure
 
 The dataset is organized in a structured and scalable format to support training, validation, and testing.
 
@@ -49,9 +49,7 @@ ancient_lang/
 
 Each folder contains text samples corresponding to its respective language.
 
----
-
-## 🧠 Model & Approach
+## Model & Approach
 
 * **Problem Type:** Multi-class text classification
 * **Input:** Text samples from ancient languages
@@ -62,33 +60,25 @@ Each folder contains text samples corresponding to its respective language.
   * Feature extraction from textual data
   * Supervised learning for classification
 
----
-
-## 📊 Results
+## Results
 
 * **Overall Accuracy:** **75%**
 * The model demonstrates a strong ability to distinguish between multiple ancient languages despite similarities in structure and vocabulary.
 
----
-
-## 🚀 Future Improvements
+## Future Improvements
 
 * Expand the dataset with more samples per language
 * Add support for additional ancient languages
 * Experiment with deep learning models (LSTM, Transformer-based models)
 * Improve preprocessing for script-specific nuances
 
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Machine Learning libraries (e.g., Scikit-learn / TensorFlow / PyTorch)
 * NLP techniques for text processing
 
----
-
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates a practical implementation of **language detection for ancient texts**, showcasing the potential of Machine Learning in historical and linguistic research domains.
 
