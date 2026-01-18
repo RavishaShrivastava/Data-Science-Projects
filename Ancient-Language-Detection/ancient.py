@@ -181,9 +181,7 @@ history = model.fit(
     callbacks=[early_stop, checkpoint]
 )
 
-# -----------------------------
-# Plot Accuracy & Loss
-# -----------------------------
+
 plt.figure(figsize=(12, 4))
 # Accuracy
 plt.subplot(1, 2, 1)
@@ -199,15 +197,8 @@ plt.legend()
 plt.title("Loss")
 plt.show()
 try:
-# -----------------------------
-# Evaluate on Test Set
-# -----------------------------
   test_loss, test_acc = model.evaluate(test_ds)
   print(f"Test Accuracy: {test_acc*100:.2f}%")
-
-  # -----------------------------
-  # Make Predictions on Test Set
-  # -----------------------------
   predictions = model.predict(test_ds)
   pred_labels = tf.argmax(predictions, axis=1)
   plt.figure(figsize=(12, 8))
