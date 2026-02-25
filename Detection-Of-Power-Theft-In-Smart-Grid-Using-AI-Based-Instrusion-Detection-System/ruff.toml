@@ -1,0 +1,14 @@
+ # Avoid noise from generated or vendored directories.
+exclude = [
+  ".git",
+  ".github",
+  ".venv",
+  "venv",
+  "__pycache__",
+]
+
+line-length = 100
+
+[lint]
+# Keep this conservative for a demo repo: catch real errors without forcing style wars.
+select = ["F"]
