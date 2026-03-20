@@ -1,12 +1,12 @@
-# 📰 Fake News Detection with Machine Learning
+# Fake News Detection with Machine Learning
 
 Welcome! This project is a simple yet powerful attempt to solve a very real problem: identifying whether a news article is **True** or **fake** using machine learning.
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
-⚠️ Note: Dataset is not included due to size. 
+Note: Dataset is not included due to size. 
 Please upload True.csv and Fake.csv manually or modify the code to load from your local/Google Drive.
 
 - `True.csv`: [Dataset link of **True.csv**](https://docs.google.com/spreadsheets/d/1oaCanPcX9ZIHmiOZonWmCORqbwR3RKC5goa8BRjMGak/edit?usp=drive_link)
@@ -25,7 +25,7 @@ Regular Expressions (for text cleaning)
 Joblib (for saving the trained model)
 
 ---
-## 🚀 Project Highlights
+## Project Highlights
 
 1. **Data Preprocessing**
    - Combined real and fake datasets
@@ -49,7 +49,7 @@ Joblib (for saving the trained model)
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model                | Training Accuracy | Testing Accuracy |
 |---------------------|-------------------|------------------|
@@ -73,12 +73,4 @@ Here are some ideas to take this project to the next level:
 -- Multilingual Support: Extend the model to support fake news detection in other languages
 
 -- Dashboard for Analytics: Display predictions, model confidence scores, and live feedback in a visual dashboard
-
----
-## 💬 Try It Yourself
-
-Use the built-in function to test your own news:
-
-```python
-manual_testing("Breaking news: Government introduces new education policy.")
 
